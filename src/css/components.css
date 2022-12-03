@@ -1,0 +1,40 @@
+.header, .footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e1c14;
+    z-index: 2;
+}
+
+.header{
+    top: 0;
+    position: fixed;
+    height: 75px;
+}
+
+#logo{
+    color: orange;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+}
+#logo:hover{
+    color: orangered;
+}
+
+.footer{
+    bottom: 0;
+    position: absolute;
+    height: 50px;
+    font-size: 13px;
+    gap: 7px;
+}
+
+.footer span{
+    color: gray;
+}
+
